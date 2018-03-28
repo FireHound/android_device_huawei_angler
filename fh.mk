@@ -7,7 +7,6 @@ $(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
-$(call inherit-product, vendor/nepo/my-apps.mk)
 
 # Disable default FH apps
 DISABLE_CNM := true
